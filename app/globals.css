@@ -2,7 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300..900&display=swap');
+/* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
@@ -30,4 +31,49 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+.container{
+  padding-inline: 16px;
+} */
+
+
+
+body{
+  background: radial-gradient(circle, #0B1926, #040C10);
+  /* background: conic-gradient(from 0deg, #0B1926, #040C10); */
+  height: 100vh;
+  color: white;
+}
+
+.green-text{
+  color:#01F28D;
+}
+
+.primary-btn{
+  border-radius: 30px;
+  background-color: #01F28D;
+  color:black;
+  padding: 10px;
+}
+
+.navLink:hover{
+  color:#01F28D;
+}
+
+.activeLink{
+  border-bottom: 1px solid #01F28D;
+}
+
+.mainHeading{
+  font-family: 'Darker Grotesque', sans-serif;
+  font-size: 60px;
+  font-style: bold;
+  line-height: 1.2;
+}
+
+.sectionHeading{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 30px;
+  font-style: bold;
 }
