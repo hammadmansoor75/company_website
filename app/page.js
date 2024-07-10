@@ -1,5 +1,6 @@
 import Service from "@/components/Service";
 import Services from "@/components/Services";
+import Work from "@/components/Work";
 import { BadgeCent, Cloud, LayoutGrid, Menu, PanelTop, PenLine } from "lucide-react";
 import Image from "next/image";
 
@@ -33,7 +34,7 @@ export default function Home() {
       </section>
 
       {/* Services Section */}
-      <section className="container mx-aut0 mt-10 p-5 px-10">
+      <section className="container mx-auto mt-10 p-5 px-10">
         {/* <h1 className="sectionHeading text-center">Our Services</h1>
         <div className="mt-5 md:flex flex-wrap items-center justify-center gap-10">
           <Service serviceName='Web Development' serviceDesc='We specialize in crafting bespoke web solutions tailored to meet your unique business objectives. Our team of skilled developers leverages the latest technologies to deliver robust, scalable, and secure web applications—from front-end design to seamless integration. Partner with us to transform your digital presence and achieve your online goals effectively.' serviceIcon={<PanelTop size={40}/>} />
@@ -43,6 +44,9 @@ export default function Home() {
           <Service serviceName='Digital Marketing' serviceDesc='Elevate your online presence with our comprehensive digital marketing services. From SEO and PPC campaigns to engaging social media strategies and targeted content creation, we specialize in leveraging digital channels to maximize your brands reach and impact. Our tailored approach ensures strategic growth, increased visibility, and measurable results. Partner with us to drive conversions, build customer loyalty, and achieve your business goals in the digital age.' serviceIcon={<BadgeCent size={40}/>}/>
         </div> */}
         <Services/>
+      </section>
+      <section className="container mx-auto">
+        <Work/>
       </section>
     </>
   );

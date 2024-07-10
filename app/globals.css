@@ -83,7 +83,9 @@ body{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-
+.latoFont{
+  font-family: 'Lato';
+}
 
 @media (max-width:639px) {
   .mainHeading{
